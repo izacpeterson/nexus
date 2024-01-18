@@ -1,0 +1,56 @@
+[
+  {
+    "uid": "1",
+    "name": "Darth Vader",
+    "email": "sithlord@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "2",
+    "name": "Luke Skywalker",
+    "email": "luke@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "3",
+    "name": "Princess Leia",
+    "email": "princessleia@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "4",
+    "name": "Han Solo",
+    "email": "hansolo@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "5",
+    "name": "Chewbacca",
+    "email": "chewie@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "6",
+    "name": "Obi-Wan Kenobi",
+    "email": "obiwan@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "7",
+    "name": "Yoda",
+    "email": "yoda@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "8",
+    "name": "R2-D2",
+    "email": "r2d2@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  },
+  {
+    "uid": "9",
+    "name": "C-3PO",
+    "email": "c3po@gmail.com",
+    "photoURL": "https://picsum.photos/200"
+  }
+]
