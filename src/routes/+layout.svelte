@@ -18,7 +18,7 @@
       <div class="flex flex-col text-xl">
         <a href="/" class="p-2">Home</a>
         <a href="/trending" class="p-2">Trending</a>
-        <a href="" class="p-2">Messages</a>
+        <!-- <a href="" class="p-2">Messages</a> -->
         <button
           on:click={() => {
             signOutWithGoogle();
