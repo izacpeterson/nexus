@@ -4,5 +4,9 @@ export async function load({ cookies }) {
     return {
       user: user,
     };
+  } else {
+    return {
+      user: "null",
+    };
   }
 }

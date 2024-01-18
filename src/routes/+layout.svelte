@@ -8,6 +8,8 @@
   import { signInWithGoogle, signOutWithGoogle, followUser } from "$lib/firebase.js";
 
   export let data;
+
+  console.log(data);
 </script>
 
 {#if data.user !== "null"}
