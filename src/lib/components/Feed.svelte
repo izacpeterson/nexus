@@ -12,5 +12,6 @@
 
   {#if posts.length === 0}
     <p class="text-xl">No posts yet</p>
+    <span class="p-4">Check out what is going on over on the <a href="/trending" class="text-blue-500 underline">Trending</a> page!</span>
   {/if}
 </div>

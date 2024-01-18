@@ -6,8 +6,8 @@
   likes = post.likes.length;
 </script>
 
-<div class="flex p-8 items-start">
-  <img src={post.userPhotoURL} alt="" class="rounded-full w-16 h-16 m-2" />
+<div class="flex p-8 items-start w-full">
+  <img src={post.userPhotoURL} alt="" class="rounded-full w-16 h-16 m-2 object-cover" />
   <div>
     <div class="flex items-center">
       <a href={`/user/${post.uid}`} class="text-xl font-bold underline text-blue-500 pr-4">{post.username}</a>

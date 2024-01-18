@@ -25,11 +25,11 @@
           }}
           class="p-2">Logout</button
         >
-        <button
+        <!-- <button
           on:click={() => {
             signInWithGoogle();
           }}>sign in</button
-        >
+        > -->
       </div>
     </header>
     <slot />

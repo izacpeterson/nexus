@@ -36,6 +36,9 @@
           comments: [],
           date: new Date().toLocaleDateString(),
           userPhotoURL: data.user.photoURL,
+        }).then(() => {
+          alert("Posted!");
+          window.location.reload();
         });
       }}
       class="bg-blue-500 text-white rounded-xl px-4 py-2">Post</button
