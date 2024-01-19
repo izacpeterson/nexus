@@ -196,3 +196,7 @@ export async function getFollowingPosts(uid) {
     return [];
   }
 }
+
+export async function loginAsDemoUser() {
+  await fetch("/api/setuser?id=2");
+}

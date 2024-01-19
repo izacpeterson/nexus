@@ -23,9 +23,12 @@
 {/if} -->
 
 <div class="flex flex-col items-center w-1/3">
+  <span>Hey {data.user.name}, welcome to Nexus Social</span>
+
   <div class="bg-slate-900 flex m-2 p-4 w-full items-center rounded-3xl shadow">
-    <img src={data.user.photoURL} alt="" class="rounded-full w-16" />
-    <textarea bind:value={newPostText} name="" id="" cols="30" rows="3" class="bg-slate-900 p-2 m-2 w-full" placeholder="Hello, world"></textarea>
+    <span class="">New Post</span>
+    <img src={data.user.photoURL} alt="" class="rounded-full w-16 h-16 object-cover" />
+    <textarea bind:value={newPostText} name="" id="" cols="30" rows="3" class="bg-slate-900 p-2 m-2 w-full" placeholder={`Hello, World! I'm ${data.user.name}!`}></textarea>
     <button
       on:click={() => {
         newPost({
